@@ -1,7 +1,7 @@
 # 效果展示
 ![](https://github.com/JadeKkang/like_view/blob/master/images/likeView.gif)
 # 使用
-1.在项目gradle中添加
+1.在项目gradle中添加br
 	allprojects {
 		repositories {
 			...
