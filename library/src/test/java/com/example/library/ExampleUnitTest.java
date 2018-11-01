@@ -1,4 +1,4 @@
-package com.example.likeview;
+package com.example.library;
 
 import org.junit.Test;
 
