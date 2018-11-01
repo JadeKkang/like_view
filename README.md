@@ -9,9 +9,9 @@ maven { url 'https://jitpack.io' }<br>
 }<br> 
 }<br> 
 2.添加依赖<br> 
-implementation 'com.github.JadeKkang:like_view:v1.0'<br> 
+ {implementation 'com.github.JadeKkang:like_view:v1.0'}<br> 
 3.xml中使用<br>  
-<com.example.library.LikeView<br>  
+<com.example.library.LikeView<br>
 android:layout_width="wrap_content"<br> 
 android:layout_height="wrap_content"<br> 
 app:circleColor="@color/colorAccent"<br> 
