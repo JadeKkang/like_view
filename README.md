@@ -2,12 +2,12 @@
 ![](https://github.com/JadeKkang/like_view/blob/master/images/likeView.gif)
 # 使用
 1.在项目gradle中添加<br>  
-	allprojects {<br> 
-		repositories {<br> 
-			...<br> 
-			maven { url 'https://jitpack.io' }<br> 
-		}<br> 
-	}<br> 
+	>>allprojects {<br> 
+		>>>>repositories {<br> 
+			>>>>>>...<br> 
+			>>>>>>maven { url 'https://jitpack.io' }<br> 
+		>>>>}<br> 
+	>>>>>>>>}<br> 
 2.添加依赖<br> 
 implementation 'com.github.JadeKkang:like_view:v1.0'<br> 
 3.xml中使用<br> 
