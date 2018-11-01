@@ -22,15 +22,13 @@ implementation 'com.github.JadeKkang:like_view:v1.0'<br>
 | circleColor |#FF4081| 点击之后出现圆形的颜色 | 
 | bitmap | @mipmap/heart | 显示的图片（如 心形图片） | 
 # 预留方法
-	```java 
-1.setIvResore(int ivResore)设置图片资源<br> 
-```
-	```java 
-2.setCircleColor(int circleColor)设置点击之后出现圆形的颜色<br> 
-```
-	```java 
-3.setDotNum(int dotNum,int[] dotColors)设置周边爆炸效果圆点数量和颜色值<br> 
-```
+
+		1.setIvResore(int ivResore)设置图片资源
+
+		2.setCircleColor(int circleColor)设置点击之后出现圆形的颜色
+
+		3.setDotNum(int dotNum,int[] dotColors)设置周边爆炸效果圆点数量和颜色值
+
 
 
 
