@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LikeView">
+        <attr name="bitmap" format="reference|integer"></attr>
+        <attr name="circleColor" format="color"></attr>
+        <attr name="dotNum" format="integer"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+<com.example.likeview.widget.LikeView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:circleColor="@color/colorAccent"
+    app:bitmap="@mipmap/heart"/>
+
+</LinearLayout>
