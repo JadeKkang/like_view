@@ -1,21 +1,23 @@
 # 效果展示
 ![](https://github.com/JadeKkang/like_view/blob/master/images/likeView.gif)
 # 使用
-1.在项目gradle中添加<br>  
-allprojects {<br> 
-repositories {<br> 
-...<br> 
-maven { url 'https://jitpack.io' }<br> 
-}<br> 
-}<br> 
-2.添加依赖<br> 
- {implementation 'com.github.JadeKkang:like_view:v1.0'}<br> 
-3.xml中使用<br>  
-<com.example.library.LikeView<br>
-android:layout_width="wrap_content"<br> 
-android:layout_height="wrap_content"<br> 
-app:circleColor="@color/colorAccent"<br> 
-app:bitmap="@mipmap/heart"/><br> 
+    1.在项目gradle中添加 
+      allprojects {
+        repositories {
+           ...
+           maven { url 'https://jitpack.io' }
+         } 
+       }
+     2.添加依赖 
+        {
+	  implementation 'com.github.JadeKkang:like_view:v1.0'
+	 }
+     3.xml中使用 
+     <com.example.library.LikeView
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       app:circleColor="@color/colorAccent"
+       app:bitmap="@mipmap/heart"/> 
 # 自定义属性
 | 属性 | 值 | 描述 | 
 | ------------- |:-------------:| -----:| 
