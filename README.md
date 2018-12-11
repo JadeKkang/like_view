@@ -10,7 +10,7 @@
        }
      2.添加依赖 
         {
-	  implementation 'com.github.JadeKkang:like_view:v1.0'
+	  implementation 'com.github.JadeKkang:like_view:v1.0.1'
 	 }
      3.xml中使用 
      <com.example.library.LikeView
